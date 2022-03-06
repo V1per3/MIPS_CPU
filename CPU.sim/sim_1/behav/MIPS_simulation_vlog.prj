@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/halfadder.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/fulladder.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Signext.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Sh12.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Regfile.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Pcreg.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Mux_5.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Mux.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/MAINdec.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/add_32bit.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/ALUdec.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Datapath.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/Contraler.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/IM.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/DM.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/CPU.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sources_1/new/MIPS_CPU.v"
+verilog xil_defaultlib  "../../../CPU.srcs/sim_1/new/MIPS_simulation.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
